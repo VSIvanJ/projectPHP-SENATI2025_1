@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    background-color: black;
+    color: #007bff;
+    margin: 0;
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 4px solid #007bff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.paquetes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.paquete {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.paquete h2 {
+    background-color: #007bff;
+    color: #fff;
+    margin: 0;
+    padding: 15px;
+    font-size: 1.3em;
+}
+
+.paquete p {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    font-size: 0.95em;
+    color: #444;
+    text-align: left;
+}
+
+.boton-comprar {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton-comprar:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: black;
+    color: #007bff;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #007bff;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+footer .opciones {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .opciones:hover {
+    background-color: #0056b3;
+}

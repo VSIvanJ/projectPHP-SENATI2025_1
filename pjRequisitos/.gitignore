@@ -1,0 +1,21 @@
+# Archivos de NetBeans
+nbproject/private/
+build/
+dist/
+*.bak
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Archivos de respaldo o cache
+*.old
+*.cache
+
+# Configuración local
+.env
